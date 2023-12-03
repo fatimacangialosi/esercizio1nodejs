@@ -7,6 +7,10 @@ il forum sulle "Cavie" o "Porcellini D\'India"
 3. Creare un form con un campo <input> nome utente e un bottone di submit che al click invia una
 richiesta POST all’indirizzo ‘/create-user’
 4. Aggiungere una rotta ‘/create-user’ e fare il parse dei dati in arrivo e scriverli sulla console.
+
+
+const 
+
 '
 */
 const http = require("http");
@@ -69,3 +73,4 @@ const server = http
 		}
 	})
 	.listen(3000); //permette di definirlo sulla porta 3000//
+console.log("Server sta rannando");
